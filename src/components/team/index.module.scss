@@ -1,0 +1,41 @@
+.wrapper {
+    width: 47%;
+    background-color: #F7F7F7;
+    padding: 30px;
+
+    h3 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+}
+
+.flex {
+    display: flex;   
+    justify-content: space-between; 
+
+    a {
+        text-decoration: none;
+        color: #252727;
+        display: block;
+        margin-bottom: 10px;
+
+        &:hover,
+        &:focus {
+            color: #416FED;
+        }
+    }
+}
+
+.name {
+    width: 49%;
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    p {
+        font-size: 14px;
+        color: #A8A8B1;
+        margin-top: 0;
+    }
+}

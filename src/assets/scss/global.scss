@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Stag Sans", sans-serif;
+  color: #252727;
+  font-weight: 400;
+  font-size: 18;
+  align-items: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #EFF2F7;  
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
